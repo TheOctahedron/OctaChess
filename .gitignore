@@ -1,0 +1,64 @@
+
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+*.tsbuildinfo
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IDEs
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+
+# Debugging
+*.stackdump
+
+# SQLite temporary files
+*.sqlite-journal
+*.db-journal
